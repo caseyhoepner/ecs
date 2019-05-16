@@ -1,0 +1,5 @@
+.h-container {
+  background-image: url('../utils/assets/pics/home-banner.png');
+  background-size: cover;
+  height: 700px;
+}
