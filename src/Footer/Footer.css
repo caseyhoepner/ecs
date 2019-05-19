@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 40px 50px 40px 5%;
+  padding: 100px 50px 40px 5%;
 }
 
 .f-form-element {
@@ -31,6 +31,7 @@
   font-size: 1.5rem;
   padding: 20px;
   border: 1px solid #e29455;
+  transition: all .4s ease-out;
 }
 
 .f-submit-btn:hover {
@@ -44,7 +45,7 @@
 }
 
 .f-contact-info {
-  padding: 40px 5% 40px 50px;
+  padding: 100px 5% 40px 50px;
 }
 
 .f-contact-section {
