@@ -27,6 +27,11 @@
   justify-content: center;
 }
 
+.nb-link {
+  text-decoration: none;
+  color: black;
+}
+
 .nb-nav-btn:hover {
   border-bottom: 4px solid #e29455;
   cursor: pointer;

@@ -12,14 +12,36 @@ export class NavBar extends Component {
             src={require('../utils/assets/logo.png')}/>
         </div>
         <div className='nb-nav-btns'>
-          <div className='nb-nav-btn'><p>Home</p></div>
-          <NavLink to='/about'>
-            <div className='nb-nav-btn'><p>About</p></div>
+          <NavLink to='/' className='nb-link'>
+            <div className='nb-nav-btn'>
+              <p className='nb-nav-btn'>Home</p>
+            </div>
           </NavLink>
-          <div className='nb-nav-btn'><p>Services</p></div>
-          <div className='nb-nav-btn'><p>Portfolio</p></div>
-          <div className='nb-nav-btn'><p>Reviews</p></div>
-          <div className='nb-nav-btn'><p>Contact</p></div>
+          <NavLink to='/about' className='nb-link'>
+            <div className='nb-nav-btn'>
+              <p>About</p>
+            </div>
+          </NavLink>
+          <NavLink to='/services' className='nb-link'>
+            <div className='nb-nav-btn'>
+              <p>Services</p>
+            </div>
+          </NavLink>
+          <NavLink to='/portfolio' className='nb-link'>
+            <div className='nb-nav-btn'>
+              <p>Portfolio</p>
+            </div>
+          </NavLink>
+          <NavLink to='/reviews' className='nb-link'>
+            <div className='nb-nav-btn'>
+              <p>Reviews</p>
+            </div>
+          </NavLink>
+          <NavLink to='/contact' className='nb-link'>
+            <div className='nb-nav-btn'>
+              <p>Contact</p>
+            </div>
+          </NavLink>
         </div>
       </div>
     )
