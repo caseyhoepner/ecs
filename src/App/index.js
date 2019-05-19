@@ -4,6 +4,7 @@ import SocialBar from '../SocialBar/SocialBar.js';
 import NavBar from '../NavBar/NavBar.js';
 import Home from '../Home/Home.js';
 import About from '../About/About.js';
+import Services from '../Services/Services.js';
 
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
+        <Route exact path='/services' component={Services} />
       </Switch>
     </div>
   );
