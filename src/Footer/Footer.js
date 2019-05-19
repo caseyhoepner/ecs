@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='f-container'>
         <form className='f-form'>
-        <h2 className='f-title'>Contact Us!</h2>
+        <h2 className='f-title'>Ask a Question</h2>
           <label>Name: <br/>
             <input 
             className='f-form-element' 
@@ -31,16 +31,26 @@ const Footer = () => {
         </form>
       <div className='f-contact-info'>
         <h2 className='f-title'>Contact</h2>
-          <p>david.hoepner@att.net</p>
-          <p>(972) 672-4311</p>
-          <h3>Hours</h3>
-            <p>Monday: 9:00 - 5:00</p>
-            <p>Tueday: 9:00 - 5:00</p>
-            <p>Wednesday: 9:00 - 5:00</p>
-            <p>Thursday: 9:00 - 5:00</p>
-            <p>Friday: 9:00 - 5:00</p>
-            <p>Saturday: Closed</p>
-            <p>Sunday: Closed</p>
+          <div className='f-contact-section'>
+            <img 
+              className='f-icon'
+              src={require(`../utils/assets/icons/email.svg`)} /> 
+            <p>david.hoepner@att.net</p>
+          </div>
+          <div className='f-contact-section'>
+            <img 
+              className='f-icon'
+              src={require(`../utils/assets/icons/phone.svg`)} />
+            <p>(972) 672-4311</p>
+          </div>
+          <h3 className='f-contact-title'>Hours</h3>
+            <p className='f-hour'>Monday: 9:00 - 5:00</p>
+            <p className='f-hour'>Tueday: 9:00 - 5:00</p>
+            <p className='f-hour'>Wednesday: 9:00 - 5:00</p>
+            <p className='f-hour'>Thursday: 9:00 - 5:00</p>
+            <p className='f-hour'>Friday: 9:00 - 5:00</p>
+            <p className='f-hour'>Saturday: Closed</p>
+            <p className='f-hour'>Sunday: Closed</p>
         </div>
     </div>
   )

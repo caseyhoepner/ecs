@@ -15,7 +15,7 @@
 
 .f-form-element {
   width: 100%;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 10px 7px;
   margin: 10px 0 25px;
   border: 1px solid #d3d3d3;
@@ -33,7 +33,29 @@
   border: 1px solid #e29455;
 }
 
+.f-submit-btn:hover {
+  background-color: #e7a976;
+  border: 1px solid #e7a976;
+  cursor: pointer;
+}
+
+.f-contact-title {
+  padding: 20px 0;
+}
+
 .f-contact-info {
   padding: 40px 5% 40px 50px;
+}
 
+.f-contact-section {
+  display: flex;
+}
+
+.f-icon {
+  height: 20px;
+  margin: 0 15px 20px 0;
+}
+
+.f-hour {
+  margin-bottom: 5px;
 }
