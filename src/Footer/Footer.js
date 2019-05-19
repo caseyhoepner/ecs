@@ -4,6 +4,18 @@ import './Footer.css';
 const Footer = () => {
   return (
     <div className='f-container'>
+        <form className='f-form'>
+          <label>Name:
+            <input type="text" name="name" />
+          </label>
+          <label>Email Address:
+            <input type="email" name="email" />
+          </label>
+          <label>Inquiry:
+            <textarea type="text" name="inquiry" />
+          </label>
+          <input type="submit" value="Submit" />
+        </form>
       <div>
         <h2>Contact</h2>
           <p>david.hoepner@att.net</p>

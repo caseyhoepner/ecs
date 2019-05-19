@@ -1,3 +1,11 @@
 .f-container {
   background-color: #d3d3d3;
+  display: flex;
+}
+
+.f-form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 40px 40px 40px 5%;
 }
