@@ -5,19 +5,32 @@ const Footer = () => {
   return (
     <div className='f-container'>
         <form className='f-form'>
-          <label>Name:
-            <input type="text" name="name" />
+        <h2 className='f-title'>Contact Us!</h2>
+          <label>Name: <br/>
+            <input 
+            className='f-form-element' 
+            type="text" 
+            name="name" />
           </label>
-          <label>Email Address:
-            <input type="email" name="email" />
+          <label>Email Address: <br/>
+            <input 
+              className='f-form-element' 
+              type="email" 
+              name="email" />
           </label>
-          <label>Inquiry:
-            <textarea type="text" name="inquiry" />
+          <label>Inquiry: <br/>
+            <textarea 
+              className='f-form-element f-textarea' 
+              type="text" 
+              name="inquiry" />
           </label>
-          <input type="submit" value="Submit" />
+          <input 
+            className='f-submit-btn'
+            type="submit" 
+            value="Submit" />
         </form>
-      <div>
-        <h2>Contact</h2>
+      <div className='f-contact-info'>
+        <h2 className='f-title'>Contact</h2>
           <p>david.hoepner@att.net</p>
           <p>(972) 672-4311</p>
           <h3>Hours</h3>
