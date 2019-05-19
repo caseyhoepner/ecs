@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import servicesData from '../utils/services.js';
-// import './Services.css';
+import './Services.css';
 
 const Services = () => {
-  
   
   const services = servicesData.map(domain => {
     const serviceList = domain.services.map(service => {
@@ -13,7 +12,7 @@ const Services = () => {
 
     return (
       <div key={domain.category} className='s-service'>
-        <h2 className='s-subheading'>{domain.name}</h2>
+        <h2 className='s-subheading'>{domain.category}</h2>
 
 
         { serviceList }
@@ -24,7 +23,7 @@ const Services = () => {
 
   return (
     <div className='s-container'>
-      <h1 className='s-title'>services</h1>
+      <h1 className='s-title'>Services</h1>
       <div className='s-services'>
 
         { services }

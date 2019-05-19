@@ -22,8 +22,7 @@ const servicesData = [
   {
     category: 'Exterior',
     services: [ 
-      'Outdoor',
-      'Kitchen​​', 
+      'Outdoor Kitchen​​', 
       'Flooring​', 
       'Decking​', 
       'Awnings​', 
