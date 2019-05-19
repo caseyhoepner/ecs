@@ -13,6 +13,8 @@ const Services = () => {
     return (
       <div key={domain.category} className='s-service'>
         <h2 className='s-subheading'>{domain.category}</h2>
+        <img className='s-icon'
+          src={require(`../utils/assets/icons/${domain.image}`)}/> 
 
 
         { serviceList }

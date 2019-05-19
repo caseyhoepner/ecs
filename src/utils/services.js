@@ -1,6 +1,7 @@
 const servicesData = [
   {
     category: 'Interior',
+    image: 'kitchen.svg',
     services: [
       'Cabinetry', 
       'Countertops',
@@ -21,6 +22,7 @@ const servicesData = [
   },
   {
     category: 'Exterior',
+    image: 'backyard.svg',
     services: [ 
       'Outdoor Kitchen​​', 
       'Flooring​', 
