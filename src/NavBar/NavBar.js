@@ -14,7 +14,7 @@ export class NavBar extends Component {
         <div className='nb-nav-btns'>
           <NavLink to='/' className='nb-link'>
             <div className='nb-nav-btn'>
-              <p className='nb-nav-btn'>Home</p>
+              <p>Home</p>
             </div>
           </NavLink>
           <NavLink to='/about' className='nb-link'>
