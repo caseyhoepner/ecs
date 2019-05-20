@@ -7,8 +7,10 @@ export class SocialBar extends Component {
       <div className='sb-container'>
         <div className='sb-icons'>
           <img 
-            className='sb-fb-icon'
-            src={require('../utils/assets/icons/facebook.svg')}/>
+            className='sb-icon'
+            src={require('../utils/assets/icons/facebook.svg')}/>          <img 
+            className='sb-icon'
+            src={require('../utils/assets/icons/linkedin.svg')}/>
         </div>
         <p className='sb-call'>Call Dave today! (972) 672-4311</p>
       </div>

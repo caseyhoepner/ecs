@@ -1,5 +1,5 @@
 .sb-container {
-  background-color: #e29455;
+  background-color: #e7a976;
   margin: 0;
   padding: 10px;
   color: white;
@@ -12,9 +12,10 @@
   display: flex;
 }
 
-.sb-fb-icon {
+.sb-icon {
   height: 25px;
   width: 25px;
+  margin-right: 10px;
 }
 
 .sb-call {
