@@ -32,9 +32,9 @@ export class NavBar extends Component {
               <p>Portfolio</p>
             </div>
           </NavLink>
-          <NavLink to='/reviews' className='nb-link'>
+          <NavLink to='/testimonials' className='nb-link'>
             <div className='nb-nav-btn'>
-              <p>Reviews</p>
+              <p>Testimonials</p>
             </div>
           </NavLink>
           <NavLink to='/contact' className='nb-link'>
