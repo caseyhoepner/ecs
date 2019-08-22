@@ -1,5 +1,26 @@
 .h-container {
-  background-image: url('../utils/assets/pics/home-banner.png');
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, .6),
+      rgba(255, 255, 255, .6)),
+    url('../utils/assets/pics/home-banner.png');
   background-size: cover;
-  height: 700px;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
+
+.h-tools-icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.h-title {
+  font-size: 3rem;
+  font-weight: normal;
 }

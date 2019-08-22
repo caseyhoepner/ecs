@@ -1,5 +1,7 @@
 .f-container {
   display: flex;
+  background-color: #F8F8F8;
+  margin-top: 50px;
 }
 
 .f-title {
@@ -9,8 +11,8 @@
 .f-form {
   display: flex;
   flex-direction: column;
-  width: 50%;
-  padding: 100px 50px 40px 5%;
+  width: 40%;
+  padding: 40px 50px 40px 5%;
 }
 
 .f-form-element {
@@ -28,8 +30,8 @@
 .f-submit-btn {
   color: #fff;
   background-color: #e29455;
-  font-size: 1.5rem;
-  padding: 20px;
+  font-size: 1.1rem;
+  padding: 15px;
   border: 1px solid #e29455;
   transition: all .4s ease-out;
 }
@@ -45,7 +47,7 @@
 }
 
 .f-contact-info {
-  padding: 100px 5% 40px 50px;
+  padding: 40px 5% 40px 50px;
 }
 
 .f-contact-section {

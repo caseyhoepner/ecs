@@ -14,8 +14,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Route path='/' component={SocialBar} />
+    <div className='App'>
       <Route path='/' component={NavBar} />
       <Switch>
         <Route exact path='/' component={Home} />

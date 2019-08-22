@@ -1,18 +1,17 @@
 .nb-container {
   display: flex;
+  justify-content: center;
   align-items: flex-end;
   justify-content: space-between;
+  background-color: #e29455;
+  height: 70px;
+  padding: 0 5%;
+  margin-bottom: 50px;
 }
 
-.nb-logo-container {
-  display: flex;
-  align-items: flex-end;
-}
-
-.nb-logo {
-  height: 75px;
-  width:75px;
-  padding: 15px;
+.nb-social-link {
+  height: 100%;
+  width: 100%;
 }
 
 .nb-nav-btns {
@@ -20,13 +19,23 @@
 }
 
 .nb-nav-btn {
+  color: #fff;
   padding-bottom: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
-  border-bottom: 4px solid white;
+  margin-left: 30px;
+  border-bottom: 4px solid #e29455;
   display: flex;
   justify-content: center;
   transition: all .4s ease-out;
+  font-size: 1.1rem;
+}
+
+.nb-nav-btn:hover {
+  border-bottom: 4px solid #fff;
+  cursor: pointer;
+}
+
+.nb-nav-btn-text {
+  color: #fff;
 }
 
 .nb-link {
@@ -38,7 +47,25 @@
   border: 1px solid red;
 }
 
-.nb-nav-btn:hover {
-  border-bottom: 4px solid #e29455;
-  cursor: pointer;
+.nb-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.nb-fb-icon {
+  background-image: url('../utils/assets/icons/facebook.svg');
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background-size: cover;
+}
+
+.nb-li-icon {
+  background-image: url('../utils/assets/icons/linkedin.svg');
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  background-size: cover;
 }
