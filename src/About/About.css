@@ -1,7 +1,25 @@
- .a-container {
-  margin: 0 5%;
- }
+.a-container {
+  margin: 0 10%;
+}
 
- .a-text {
+.a-text-pic-cont {
+  display: flex;
+  align-items: center;
+}
+
+.a-text-cont {
+  width: 75%;
+  margin-right: 5%;
+}
+
+.a-text {
   margin: 20px 0;
- }
+}
+
+.a-dave-pic {
+  background-image: url('../utils/assets/pics/dave.jpeg');
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
