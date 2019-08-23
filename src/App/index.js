@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, withRouter, Switch } from 'react-router-dom';
-import SocialBar from '../SocialBar/SocialBar.js';
 import NavBar from '../NavBar/NavBar.js';
 import Footer from '../Footer/Footer.js';
 import Home from '../Home/Home.js';
