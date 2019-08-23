@@ -24,8 +24,7 @@ export const portfolioPics = [
             before: false,
           },
         ]
-      },
-      {
+      }, {
         decription: 'bathroom 2 description',
         pics: [
           {
@@ -54,8 +53,7 @@ export const portfolioPics = [
             before: false,
           },
         ]
-      },
-      {
+      }, {
         decription: 'bathroom 3 description',
         pics: [
           {
@@ -133,8 +131,30 @@ export const portfolioPics = [
           },
         ]
       },
-
-
+    ]
+  },
+  {
+    category: 'Kitchens',
+    mainPic: 'kitchens/kitchen1/1.jpg',
+    kitchens: [
+      {
+        decription: 'kitchen 1 description',
+        pics: [
+          {
+            pic: 'kitchens/kitchen1/1.jpg',
+            description: 'pic1',
+            before: false,
+          }, {
+            pic: 'kitchens/kitchen1/2.jpg',
+            description: 'pic2',
+            before: false,
+          }, {
+            pic: 'kitchens/kitchen1/3.jpg',
+            description: 'pic3',
+            before: false,
+          },
+        ]
+      }
     ],
   },
 ];
