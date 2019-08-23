@@ -4,6 +4,7 @@ import { portfolioPics } from '../utils/portfolio-pics';
 
 const Portfolio = () => {
   const portfolioCategories = portfolioPics.map(category => {
+    console.log(category.mainPic)
     return (
       <div key={`${category.category}`}>
         <h2>
